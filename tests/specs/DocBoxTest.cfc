@@ -3,9 +3,9 @@
  */
 component extends="testbox.system.BaseSpec" {
 
-	property name="HTMLOutputDir" default="/tests/resources/tmp/html";
-	property name="JSONOutputDir" default="/tests/resources/tmp/json";
-	property name="XMIOutputFile" default="/tests/resources/tmp/uml/XMITestFile.uml";
+	property name="HTMLOutputDir" default="../../tests/resources/tmp/html";
+	property name="JSONOutputDir" default="../../tests/resources/tmp/json";
+	property name="XMIOutputFile" default="../../tests/resources/tmp/uml/XMITestFile.uml";
 
 	/*********************************** LIFE CYCLE Methods ***********************************/
 
